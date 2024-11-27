@@ -12,3 +12,6 @@ A food discovery and online ordering platform clone built using HTML, CSS, and J
 - **CSS**: For styling the page, including layout, colors, and animations.
 - **JavaScript**: For handling basic interactivity, such as form input focus and other dynamic features.
 
+## Output
+![output1](https://github.com/user-attachments/assets/565c1922-56b2-47f8-b08e-d168305fa48c)
+![output2](https://github.com/user-attachments/assets/25623e5f-0db3-43e0-b355-8f98b1142e03)
