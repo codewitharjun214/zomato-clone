@@ -1,5 +1,3 @@
-# zomato-clone
-"A food discovery and online ordering platform clone built with HTML, CSS, and JavaScript, inspired by Zomato. Users can search for restaurants, cuisines, and dishes while experiencing a responsive design with modern features."
 # Zomato Clone
 
 A food discovery and online ordering platform clone built using HTML, CSS, and JavaScript. The project aims to replicate the basic functionality and layout of Zomato, providing users with a simple and responsive interface for searching restaurants, cuisines, and dishes.
@@ -13,3 +11,5 @@ A food discovery and online ordering platform clone built using HTML, CSS, and J
 - **HTML**: For the structure of the webpage.
 - **CSS**: For styling the page, including layout, colors, and animations.
 - **JavaScript**: For handling basic interactivity, such as form input focus and other dynamic features.
+## Demo
+You can view a live demo of the project here:  
