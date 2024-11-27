@@ -11,5 +11,4 @@ A food discovery and online ordering platform clone built using HTML, CSS, and J
 - **HTML**: For the structure of the webpage.
 - **CSS**: For styling the page, including layout, colors, and animations.
 - **JavaScript**: For handling basic interactivity, such as form input focus and other dynamic features.
-## Demo
-You can view a live demo of the project here:  
+
