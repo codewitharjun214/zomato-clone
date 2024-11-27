@@ -1,35 +1,18 @@
-// Adding smooth scroll behavior for anchor links
-document.querySelectorAll('a').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
+// Script for basic animations and interactivity
 
-        const targetId = this.getAttribute('href').substring(1);
-        const targetElement = document.getElementById(targetId);
-        
-        if (targetElement) {
-            window.scrollTo({
-                top: targetElement.offsetTop - 50, // Offset for header
-                behavior: 'smooth'
-            });
-        }
-    });
-});
+document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.querySelector('main input');
 
-// Adding a simple animation to the search input field on focus
-const searchInput = document.querySelector('input[type="text"]');
-if (searchInput) {
-    searchInput.addEventListener('focus', () => {
-        searchInput.style.transform = 'scale(1.05)';
-        searchInput.style.transition = 'transform 0.2s ease';
+    // Animate input field on focus
+    searchInput.addEventListener('focus', function () {
+        searchInput.style.width = '350px';
+        searchInput.style.transition = 'width 0.5s ease';
     });
 
-    searchInput.addEventListener('blur', () => {
-        searchInput.style.transform = 'scale(1)';
+    // Return to normal size when not in focus
+    searchInput.addEventListener('blur', function () {
+        searchInput.style.width = '300px';
     });
-}
 
-// Optional: Change the text in the main section on page load
-window.addEventListener('load', () => {
-    const mainText = document.querySelector('main p');
-    mainText.textContent = 'Your favorite food, delivered to your door!';
+    
 });
